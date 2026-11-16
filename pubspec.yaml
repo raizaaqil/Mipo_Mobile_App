@@ -1,0 +1,47 @@
+name: mipo_aplikasi
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.13.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  table_calendar: ^3.0.9
+  camera: ^0.10.5+9        # Untuk akses kamera fisik HP
+  file_picker: ^8.0.0      # Untuk fitur Open File
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Huninn
+      fonts:
+        - asset: assets/fonts/Huninn-Regular.ttf
+
+    - family: Anak-Bijak
+      fonts:
+        - asset: assets/fonts/Anak-Bijak.ttf
+
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-VariableFont.ttf
+        
